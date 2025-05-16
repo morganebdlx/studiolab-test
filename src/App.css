@@ -33,11 +33,3 @@ h1 {
     left: 20px;
   }
 }
-@media (max-width: 480px) {
-  .logo {
-    width: 58.11px;
-    height: 46px;
-    top: 17px;
-    left: 20px;
-  }
-}
