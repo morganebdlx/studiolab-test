@@ -3,6 +3,7 @@ import './Hero.css';
 import heroImage from '../assets/V7_hero_desktop.png';
 //import heroImageMobile from '../assets/V7_hero_mobile.png';
 import logo from '../assets/V7_logo.svg';
+import burger from '../assets/menu-burger.png';
 
 
 
@@ -22,14 +23,20 @@ const Hero = () => {
 
   return (
     <div className={`hero step-${step}`}>
+
       <div className="logo">
         <img src={logo} alt="V7LVET Logo" />
       </div>
-      <div className="animation-container">
+      <div className="menu-burger">
+        <img src={burger} alt="Menu burger" />
+      </div>
+      <div className={`hero-text-left cabin-font ${step >= 2 ? "visible" : ""}`}>
+        <p>V7LVET</p>
+      </div>
+       <div className="animation-container">
         <img src={heroImage} alt="Hero" className="hero-image" />
       </div>
-      <div className={`hero-text cabin-font ${step >= 2 ? "visible" : ""}`} >
-        <p>V7LVET</p>
+      <div className={`hero-text-right cabin-font ${step >= 2 ? "visible" : ""}`}>
         <p>Design the Structure, Drive the Future</p>
       </div>
     </div>
