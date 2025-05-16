@@ -1,22 +1,20 @@
 .hero {
   position: relative;
-  margin: 0;
-  padding: 0;
   width: 100vw;
   height: 100vh;
   background-color: #063238;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
 }
 
 .animation-container {
-  overflow: hidden;
+  position: absolute;
+  top: 322px;
+  left: 626px;
   width: 413px;
   height: 240px;
+  overflow: hidden;
   transition: all 1s ease;
+  z-index: 1;
 }
 
 .hero-image {
@@ -24,35 +22,51 @@
   height: 100%;
   object-fit: cover;
   transition: transform 1s ease;
-  transform-origin: center center;
 }
 
-/* Étape 1 : image petite, pas de texte */
 .step-1 .animation-container {
   width: 413px;
   height: 240px;
   position: relative;
 }
 
-.step-1 .hero-text {
+.step-1 .hero-text-left,
+.step-1 .hero-text-right {
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity 1s ease;
 }
 
-/* Étape 2 : texte visible, image toujours petite */
-.step-2 .hero-text {
-  opacity: 1;
-  color: white;
+.hero-text-left,
+.hero-text-right {
+  position: absolute;
+  width: 145px;
+  height: 55px;
+  color: #F4F5F3;
+  opacity: 0;
+  transition: opacity 1s ease;
   text-align: center;
-  margin-top: 20px;
 }
 
-/* Étape 3 : image agrandie en full hero */
+.hero-text-left {
+  top: 425px;
+  left: 187px;
+}
+
+.hero-text-right {
+  top: 397px;
+  right: 187px;
+  width: 400px;
+  height: auto;
+}
+
+.step-2 .hero-text-left,
+.step-2 .hero-text-right {
+  opacity: 1;
+}
+
 .step-3 .animation-container {
   width: 100vw;
   height: 100vh;
-  border-radius: 0;
-  position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
@@ -62,10 +76,8 @@
   transform: scale(1);
 }
 
-.step-3 .hero-text {
-  position: relative;
-  z-index: 10;
-  color: white;
-  text-align: center;
-  margin-top: 20px;
+.step-3 .hero-text-left,
+.step-3 .hero-text-right {
+  opacity: 1;
+  z-index: 2;
 }
