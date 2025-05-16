@@ -140,7 +140,7 @@
     text-align: center;
   }
 
-  .hero-text-right, p {
+  .hero-text-right p {
     position: relative;
     opacity: 1;
     top: 50%;
