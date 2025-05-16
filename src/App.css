@@ -8,12 +8,35 @@ body {
   font-style: normal;
 }
 
+.cabin-font {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  font-family: Cabin;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  color: #F4F5F3;
+}
+
+body, html, #root {
+  background-color: #F4F5F3;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
 .logo {
   width: 72px;
   height: 57px;
   top: 70px;
   left: 110px;
   position: fixed;
+  z-index: 10
 }
 
 h1 {
