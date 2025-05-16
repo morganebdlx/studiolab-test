@@ -37,7 +37,8 @@ const Hero = () => {
         <img src={heroImage} alt="Hero" className="hero-image" />
       </div>
       <div className={`hero-text-right cabin-font ${step >= 2 ? "visible" : ""}`}>
-        <p>Design the Structure, Drive the Future</p>
+        <p className="desktop">Design the Structure, Drive the Future</p>
+        <p className="mobile">THE FUTURE <br></br>OF FINANCE</p>
       </div>
     </div>
   );
