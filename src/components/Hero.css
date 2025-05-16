@@ -130,7 +130,7 @@
     display: none;
   }
 
-  .hero-text-left, p {
+  .hero-text-left p {
     position: relative;
     opacity: 1;
     top: 25%;
