@@ -29,7 +29,7 @@ const Hero = () => {
         <img src={logo} alt="V7LVET Logo" />
       </div>
       <div className="menu-burger">
-        <button className="menu-button">
+        <button className="menu-button" aria-label="Menu">
           <FontAwesomeIcon icon={faBars} className="burger" />
         </button>
       </div>
