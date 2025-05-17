@@ -53,17 +53,18 @@
   cursor: pointer;
 }
 
-.button-arrow {
-  width: 22px;
-  height: 32px;
-}
-
 .text-left .mobile {
   display: none;
 }
 
 .text-left .desktop {
   display: block;
+}
+
+.button-arrow {
+  width: 22px;
+  height: 22px;
+  margin-left: 10px;
 }
 
 
