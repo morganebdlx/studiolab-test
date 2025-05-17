@@ -1,5 +1,6 @@
 import './TextSection.css';
-import arrow from '../assets/button-arrow.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 function TextSection() {
 
@@ -17,7 +18,7 @@ function TextSection() {
           à travers le <strong>prisme</strong> du <strong>conseil stratégique</strong> et <strong>des technologies de pointe.</strong></p>
           <p><strong>Au-delà des chiffres,</strong> nous sommes un <strong>partenaire engagé,</strong> présent à chaque <strong>étape décisive</strong> de la vie de votre entreprise
           <strong>- du premier souffle à la pleine maturité.</strong></p>
-          <button className="text-section-button">En savoir plus <img className="button-arrow" src={arrow} alt="Flèche du bouton" /></button>
+          <button className="text-section-button">En savoir plus <FontAwesomeIcon icon={faArrowRight} className="button-arrow"/></button>
         </div>
 
       </div>

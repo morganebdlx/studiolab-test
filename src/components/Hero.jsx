@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './Hero.css';
 import heroImage from '../assets/V7_hero_desktop.png';
-//import heroImageMobile from '../assets/V7_hero_mobile.png';
 import logo from '../assets/V7_logo.svg';
-import burger from '../assets/menu-burger.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
 
 
 
@@ -28,7 +29,9 @@ const Hero = () => {
         <img src={logo} alt="V7LVET Logo" />
       </div>
       <div className="menu-burger">
-        <img src={burger} alt="Menu burger" />
+        <button className="menu-button">
+          <FontAwesomeIcon icon={faBars} className="burger" />
+        </button>
       </div>
       <div className={`hero-text-left cabin-font ${step >= 2 ? "visible" : ""}`}>
         <p>V7LVET</p>
