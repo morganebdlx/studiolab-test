@@ -21,7 +21,7 @@ function CardsSection() {
         <div className="cards">
           <div className="row row-one">
             <div className="card">
-            <button className="arrow-card"><FontAwesomeIcon icon={faArrowRight} className="card-arrow"/></button>
+            <button className="arrow-card" aria-label="View more details"><FontAwesomeIcon icon={faArrowRight} className="card-arrow"/></button>
               <h3>Card 1</h3>
               <p>This is the first card.</p>
             </div>
