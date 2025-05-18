@@ -1,11 +1,6 @@
 import './CardsSection.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
-import { faHourglassHalf } from '@fortawesome/free-solid-svg-icons';
-import { faUserPen } from '@fortawesome/free-solid-svg-icons';
-import { faBolt } from '@fortawesome/free-solid-svg-icons';
-import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -33,7 +28,7 @@ function CardsSection() {
               <div className="card">
                 <div className="card-text-default">
                   <button className="arrow-card" aria-label="View more details"><FontAwesomeIcon icon={faArrowRight} className="right-arrow-icon"/></button>
-                  <FontAwesomeIcon icon={faStar} className="card-icon"/>
+                    <div className="placeholder"></div>
                   <h3>Qualité</h3>
                   <p>Fiabilité. Précision. Impact.</p>
                 </div>
@@ -55,7 +50,7 @@ function CardsSection() {
               <div className="card">
                 <div className="card-text-default">
                   <button className="arrow-card" aria-label="View more details"><FontAwesomeIcon icon={faArrowRight} className="right-arrow-icon"/></button>
-                  <FontAwesomeIcon icon={faHourglassHalf} className="card-icon"/>
+                    <div className="placeholder"></div>
                   <h3>Gain de temps</h3>
                   <p>Fluidité. Technologie. Optimisation.</p>
                 </div>
@@ -76,7 +71,7 @@ function CardsSection() {
               <div className="card">
                 <div className="card-text-default">
                   <button className="arrow-card" aria-label="View more details"><FontAwesomeIcon icon={faArrowRight} className="right-arrow-icon"/></button>
-                  <FontAwesomeIcon icon={faUserPen} className="card-icon"/>
+                    <div className="placeholder"></div>
                   <h3>Personnalisation</h3>
                   <p>Conseil. Stratègie. Valeur.</p>
                 </div>
@@ -103,7 +98,7 @@ function CardsSection() {
               <div className="card">
                 <div className="card-text-default">
                   <button className="arrow-card" aria-label="View more details"><FontAwesomeIcon icon={faArrowRight} className="right-arrow-icon"/></button>
-                  <FontAwesomeIcon icon={faLightbulb} className="card-icon"/>
+                    <div className="placeholder"></div>
                   <h3>Anticipation</h3>
                   <p>Vision. Action. Evolution.</p>
                 </div>
@@ -124,7 +119,7 @@ function CardsSection() {
               <div className="card">
                 <div className="card-text-default">
                   <button className="arrow-card" aria-label="View more details"><FontAwesomeIcon icon={faArrowRight} className="right-arrow-icon"/></button>
-                  <FontAwesomeIcon icon={faBolt} className="card-icon"/>
+                    <div className="placeholder"></div>
                   <h3>Réactivité</h3>
                   <p>Proximité. Disponibilité. Suivi.</p>
                 </div>
