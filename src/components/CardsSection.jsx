@@ -15,7 +15,8 @@ function CardsSection() {
       <div className="cards-section">
         <div className="intro">
           <div className="intro-left">
-            <h2>Avantages</h2>
+            <h2 className="desktop">Avantages</h2>
+            <h2 className="mobile">Nos avantages</h2>
           </div>
           <div className="intro-right">
             <p>Rejoindre <strong>V7LVET</strong>, c’est choisir un cabinet où <strong>le conseil est au cœur du
