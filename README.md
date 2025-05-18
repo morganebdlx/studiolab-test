@@ -5,7 +5,7 @@
 Ce projet est un test technique réalisé pour Studio Lab. Il a pour but de démontrer mes compétences en développement web, en respectant les consignes fournies dans le cahier des charges.
 
 # Déploiement sur GitHub Pages
-Première fois que je fais un déploiement GitHub Pages, c'est une solution d'hébergment gratuite temporaire qui permet d'avoir rapidemment le résultat final avec les intéractions, animations et responsive. Voici le lien : https://morganebdlx.github.io/studiolab-test/
+Première fois que je fais un déploiement GitHub Pages, c'est une solution d'hébergement gratuite temporaire qui permet d'avoir rapidement le résultat final avec les intéractions, animations et responsive. Voici le lien : https://morganebdlx.github.io/studiolab-test/
 
 # Fonctionnalités
 (à définir)
