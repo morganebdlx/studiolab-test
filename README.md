@@ -15,7 +15,7 @@ Langage : JavaScript
 
 Framework(s)/Librairie(s) : React
 
-Outils : Vite, npm, Git, zsh
+Outils : Vite, npm, Git, zsh, fontawesome, googlefont
 
 
 # Choix techniques et hypothèses
@@ -49,7 +49,7 @@ J’ai choisi React car je suis en train de me former seule sur ce framework. Ce
 
 
 ## Remerciements
-Merci à Studio Lab pour ce test stimulant.
+Merci à Studio Lab pour ce test challengeant.
 Je reste disponible pour toute question ou pour détailler certains choix techniques.
 
 
