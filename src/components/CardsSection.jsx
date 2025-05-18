@@ -50,13 +50,13 @@ function CardsSection() {
 
             <div className="card">
               <button className="arrow-card" aria-label="View more details"><FontAwesomeIcon icon={faArrowRight} className="card-arrow"/></button>
-              <div class="card-text-default">
+              <div className="card-text-default">
                 <FontAwesomeIcon icon={faHourglassHalf} className="card-icon"/>
                 <h3>Gain de temps</h3>
                 <p>Fluidité. Technologie. Optimisation.</p>
               </div>
 
-              <div class="card-text-hover">
+              <div className="card-text-hover">
                 <p><strong>Le temps est une ressource rare, V7LVET le
                   valorise.</strong> En <strong>simplifiant la complexité, clarifiant
                   les priorités et accélérant les décisions,</strong> chaque
@@ -69,13 +69,13 @@ function CardsSection() {
 
             <div className="card">
               <button className="arrow-card" aria-label="View more details"><FontAwesomeIcon icon={faArrowRight} className="card-arrow"/></button>
-              <div class="card-text-default">
+              <div className="card-text-default">
                 <FontAwesomeIcon icon={faUserPen} className="card-icon"/>
                 <h3>Personnalisation</h3>
                 <p>Conseil. Stratègie. Valeur.</p>
               </div>
 
-              <div class="card-text-hover">
+              <div className="card-text-hover">
                 <p><strong>V7LVET accompagne une clientèle
                 exigeante,</strong> en quête d’un partenaire capable de
                 <strong>décrypter en profondeur sa réalité : secteur,
@@ -93,13 +93,13 @@ function CardsSection() {
 
             <div className="card">
               <button className="arrow-card" aria-label="View more details"><FontAwesomeIcon icon={faArrowRight} className="card-arrow"/></button>
-              <div class="card-text-default">
+              <div className="card-text-default">
                 <FontAwesomeIcon icon={faLightbulb} className="card-icon"/>
                 <h3>Anticipation</h3>
                 <p>Vision. Action. Evolution.</p>
               </div>
 
-              <div class="card-text-hover">
+              <div className="card-text-hover">
                 <p><strong>En dépassant les cadres établis,</strong>
                 V7LVET ouvre des <strong>perspectives nouvelles</strong> et fait
                 de chaque mission un <strong>catalyseur d’évolution.</strong>
@@ -111,13 +111,13 @@ function CardsSection() {
 
             <div className="card">
               <button className="arrow-card" aria-label="View more details"><FontAwesomeIcon icon={faArrowRight} className="card-arrow"/></button>
-              <div class="card-text-default">
+              <div className="card-text-default">
                 <FontAwesomeIcon icon={faBolt} className="card-icon"/>
                 <h3>Réactivité</h3>
                 <p>Proximité. Disponibilité. Suivi.</p>
               </div>
 
-              <div class="card-text-hover">
+              <div className="card-text-hover">
                 <p><strong>V7LVET privilégie une relation humaine,
                 experte et engagée.</strong>
                 Chaque client bénéficie d’une <strong>équipe dédiée,</strong>
