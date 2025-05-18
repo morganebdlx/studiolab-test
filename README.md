@@ -49,7 +49,7 @@ J’ai choisi React car je suis en train de me former seule sur ce framework. Ce
 
 
 ## Remerciements
-Merci à Studio Lab pour ce test challegeant.
+Merci à Studio Lab pour ce test stimulant.
 Je reste disponible pour toute question ou pour détailler certains choix techniques.
 
 
