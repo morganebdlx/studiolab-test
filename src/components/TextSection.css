@@ -63,7 +63,7 @@
 }
 
 
-@media (max-width: 1600px) {
+@media (min-width: 1025px) and (max-width: 1600px) {
   .text-right {
     margin-right: 140px;
   }
@@ -98,7 +98,7 @@
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (min-width: 320px) {
   .text-left .desktop {
     display: none;
   }
