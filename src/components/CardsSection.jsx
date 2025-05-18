@@ -30,13 +30,13 @@ function CardsSection() {
             <div className="card-content">
             <div className="card">
               <button className="arrow-card" aria-label="View more details"><FontAwesomeIcon icon={faArrowRight} className="card-arrow"/></button>
-              <div class="card-text-default">
+              <div className="card-text-default">
                 <FontAwesomeIcon icon={faStar} className="card-icon"/>
                 <h3>Qualité</h3>
                 <p>Fiabilité. Précision. Impact.</p>
               </div>
 
-              <div class="card-text card-text-hover">
+              <div className="card-text card-text-hover">
                 <p><strong>V7LVET incarne un haut niveau d’exigence
                 et de précision. </strong>
                 Héritée des <strong>standards du conseil internationale
