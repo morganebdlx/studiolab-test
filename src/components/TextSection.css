@@ -44,12 +44,7 @@
   width: 198px;
   height: 46px;
   border: 1px solid #1C1C1C;
-  box-shadow: 0px 30px 30px -3.75px #0000000D,
-              0px 13.65px 13.65px -3.13px #0000001B,
-              0px 3.62px 3.62px -1.88px #00000023,
-              0px 6.87px 6.87px -2.5px #00000020,
-              0px 1.81px 1.81px -1.25px #00000025,
-              0px 0.71px 0.71px -0.63px #00000026;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
 
@@ -62,8 +57,8 @@
 }
 
 .button-arrow {
-  width: 22px;
-  height: 22px;
+  width: 16px;
+  height: 16px;
   margin-left: 10px;
 }
 
