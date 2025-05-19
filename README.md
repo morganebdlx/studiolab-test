@@ -14,8 +14,8 @@ Un composant avec une intro, un bouton "en savoir plus" similaire à celui de la
 Un footer simple en signature.
 
 # Stack technique
-Langage : JavaScript
-Framework(s)/Librairie(s) : React
+Langage : JavaScript,
+Framework(s)/Librairie(s) : React, 
 Outils : Vite, npm, Git, zsh, fontawesome, googlefont
 
 
