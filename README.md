@@ -15,7 +15,7 @@ Un footer simple en signature.
 
 # Stack technique
 Langage : JavaScript,
-Framework(s)/Librairie(s) : React, 
+Framework(s)/Librairie(s) : React,
 Outils : Vite, npm, Git, zsh, fontawesome, googlefont
 
 
@@ -24,29 +24,31 @@ J’ai choisi React car je suis en train de me former seule sur ce framework. Ce
 
 
 # Structure du projet
+```
 ├── public/
 ├── src/
-    ├──assets/
-        └──images
-    ├──components/
-        ├──CardsSection.css
-        ├──CardsSection.jsx
-        ├──Footer.css
-        ├──Footer.jsx
-        ├──Hero.css
-        ├──Hero.jsx
-        ├──TextSection.css
-        ├──TextSection.jsx
-    ├──App.css
-    ├──App.jsx
-    ├──Index.css
-    ├──main.jsx
+│   ├── assets/
+│   │   └── images
+│   ├── components/
+│   │   ├── CardsSection.css
+│   │   ├── CardsSection.jsx
+│   │   ├── Footer.css
+│   │   ├── Footer.jsx
+│   │   ├── Hero.css
+│   │   ├── Hero.jsx
+│   │   ├── TextSection.css
+│   │   ├── TextSection.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── Index.css
+│   ├── main.jsx
 ├── eslint.config.js
-├──index.html
+├── index.html
 ├── package-lock.json
 ├── package.json
 ├── README.md
 └── vite.config.js
+```
 
 
 ## Remerciements
