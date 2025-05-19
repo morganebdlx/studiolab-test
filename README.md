@@ -12,6 +12,7 @@ Un composant Hero avec une image centrée qui s'agrandit et un texte qui appara�
 Une section de texte avec plusieurs tailles et un bouton "en savoir plus" contenant une flèche via fontawesome.
 Un composant avec une intro, un bouton "en savoir plus" similaire à celui de la section précédente, puis 5 cartes avec des animations au hover.
 Un footer simple en signature.
+Il n'y a pas de composant Header car il y a seulement un menu burger pour tous les formats de devices. 
 
 # Stack technique
 Langage : JavaScript,
