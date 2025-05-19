@@ -100,7 +100,7 @@ function CardsSection() {
                   <button className="arrow-card" aria-label="View more details"><FontAwesomeIcon icon={faArrowRight} className="right-arrow-icon"/></button>
                     <div className="placeholder"></div>
                   <h3>Anticipation</h3>
-                  <p>Vision. Action. Evolution.</p>
+                  <p>Vision. Action. Évolution.</p>
                 </div>
 
                 <div className="card-text-hover">
