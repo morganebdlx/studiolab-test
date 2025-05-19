@@ -97,6 +97,7 @@
   height: 50px;
   transform: rotate(-39deg);
   border-radius: 33px;
+  color: #1C1C1C;
   border: solid 1px #1C1C1C;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
   cursor: pointer;
@@ -114,8 +115,7 @@
   padding: 20px;
   opacity: 0;
   z-index: 2;
-  transition: opacity 0.6s ease, transform 0.6s ease, filter 0.4s ease-in-out;
-  transform: translateY(10px);
+  transition: opacity 0.8s, transform 0.8s;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,7 +162,7 @@
 .right-arrow-icon {
   width: 18px;
   height: 18px;
-  background-color: #F4F5F3;
+  background-color: transparent;
 }
 
 .bottom-arrow-icon {
@@ -195,11 +195,11 @@
   }
 
   .intro-right {
-    margin-right: 140px;
+    margin-right: 150px;
   }
 
   .intro-left {
-    margin-left: 250px;
+    margin-left: 100px;
   }
 
   .row {
@@ -222,13 +222,13 @@
   }
 
   .card-text-hover {
-    width: 92%;
+    width: 90%;
     height: 100%;
   }
 
   .card-text-hover .arrow-card {
     top: 8px;
-    right: 15px;
+    right: 10px;
     width: 50px;
     height: 50px;
   }
@@ -368,7 +368,7 @@
   }
 
   .card-text-hover {
-    width: 92%;
+    width: 90%;
     height: 100%;
     margin-bottom: none;
   }
@@ -389,13 +389,9 @@
     margin: 0 10% 10% 0;
   }
 
-  .card-text-default {
-    margin: 0;
-  }
-
   .card-text-default .arrow-card {
-    top: 10px;
-    right: 50px;
+    top: 20px;
+    right: 55px;
     width: 50px;
     height: 50px;
   }
