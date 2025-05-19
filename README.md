@@ -8,13 +8,14 @@ Ce projet est un test technique réalisé pour Studio Lab. Il a pour but de dém
 Première fois que je fais un déploiement GitHub Pages, c'est une solution d'hébergement gratuite temporaire qui permet d'avoir rapidement le résultat final avec les intéractions, animations et responsive. Voici le lien : https://morganebdlx.github.io/studiolab-test/
 
 # Fonctionnalités
-(à définir)
+Un composant Hero avec une image centrée qui s'agrandit et un texte qui apparaît aprés un certain temps, logo et menu burger qui sont sticky.
+Une section de texte avec plusieurs tailles et un bouton "en savoir plus" contenant une flèche via fontawesome.
+Un composant avec une intro, un bouton "en savoir plus" similaire à celui de la section précédente, puis 5 cartes avec des animations au hover.
+Un footer simple en signature.
 
 # Stack technique
 Langage : JavaScript
-
 Framework(s)/Librairie(s) : React
-
 Outils : Vite, npm, Git, zsh, fontawesome, googlefont
 
 

@@ -50,6 +50,10 @@ body, html, #root {
   z-index: 10;
 }
 
+.burger {
+  color: #2E6965;
+}
+
 .menu-button {
   width: 54px;
   height: 54px;
