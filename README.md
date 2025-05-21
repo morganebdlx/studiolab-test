@@ -8,7 +8,10 @@ Ce projet est un test technique réalisé pour Studio Lab. Il a pour but de dém
 Première fois que je fais un déploiement GitHub Pages, c'est une solution d'hébergement gratuite temporaire qui permet d'avoir rapidement le résultat final avec les intéractions, animations et responsive. Voici le lien : https://morganebdlx.github.io/studiolab-test/
 
 # Fonctionnalités
-Un composant Header est en transparence avec le Hero ce dernier a une image centrée qui s'agrandit et un texte qui apparaît après un certain temps, le logo et le menu burger ainsi de la nav dans le Header sont sticky. Une animation du menu se fait au click afin de déployer la nav.
+- Le composant Header est en transparence avec le Hero.
+- Le Hero contient une image centrée qui s'agrandit et un texte qui apparaît après un certain temps.
+- Le logo, le menu burger, et la navigation dans le Header sont sticky.
+- Une animation du menu se déclenche au clic pour déployer la navigation.
 Une section de texte avec plusieurs tailles et un bouton "en savoir plus" contenant une flèche via fontawesome.
 Un composant avec une intro, un bouton "en savoir plus" similaire à celui de la section précédente, puis 5 cartes avec des animations au hover.
 Un footer simple en signature.
