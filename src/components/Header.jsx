@@ -27,12 +27,12 @@ function Header() {
 
         <nav className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
           <ul>
-            <li><a href="">SERVICES</a></li>
-            <li><a href="">EXPERTISES</a></li>
-            <li><a href="">FAQ</a></li>
-            <li><a href="">V7 LAB <FontAwesomeIcon icon={faChevronDown} className="chevron-menu"/></a></li>
-            <li><a href="">A PROPOS</a></li>
-            <li className="cta-menu"><a href="">CONTACT <FontAwesomeIcon icon={faArrowRight} className="menu-arrow" aria-hidden="true"/></a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">EXPERTISES</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">V7 LAB <FontAwesomeIcon icon={faChevronDown} className="chevron-menu"/></a></li>
+            <li><a href="#">A PROPOS</a></li>
+            <li className="cta-menu"><a href="#">CONTACT <FontAwesomeIcon icon={faArrowRight} className="menu-arrow" aria-hidden="true"/></a></li>
           </ul>
         </nav>
     </header>
