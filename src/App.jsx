@@ -1,3 +1,4 @@
+import Header from './components/Header';
 import Hero from './components/Hero';
 import TextSection from './components/TextSection';
 import CardsSection from './components/CardsSection';
@@ -10,6 +11,7 @@ function App() {
     <>
       <div className="App">
         <main>
+          <Header />
           <Hero />
           <TextSection />
           <CardsSection />
