@@ -12,12 +12,12 @@ Première fois que je fais un déploiement GitHub Pages, c'est une solution d'h�
 - Le Hero contient une image centrée qui s'agrandit et un texte qui apparaît après un certain temps.
 - Le logo, le menu burger, et la navigation dans le Header sont sticky.
 - Une animation du menu se déclenche au clic pour déployer la navigation.
-Une section de texte avec plusieurs tailles et un bouton "en savoir plus" contenant une flèche via fontawesome.
-Un composant avec une intro, un bouton "en savoir plus" similaire à celui de la section précédente, puis 5 cartes avec des animations au hover.
-Un footer simple en signature.
+- Une section de texte avec plusieurs tailles et un bouton "en savoir plus" contenant une flèche via fontawesome.
+- Un composant avec une intro, un bouton "en savoir plus" similaire à celui de la section précédente, puis 5 cartes avec des animations au hover.
+- Un footer simple en signature.
 
 # Stack technique
-Langage : JavaScript | 
+Langage : JavaScript |
 Framework : React |
 Outils : Vite, npm, Git, zsh, fontAwesome, googleFont
 
