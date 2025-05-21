@@ -20,7 +20,7 @@ function Header() {
         </div>
 
         <div className="menu-burger">
-          <button className="menu-button" onClick={toggleMenu} aria-label="Menu">
+          <button type="button" className="menu-button" onClick={toggleMenu} aria-label="Menu">
             <FontAwesomeIcon icon={isMenuOpen ? faXmark : faBars} className="burger" />
           </button>
         </div>
