@@ -8,16 +8,18 @@ Ce projet est un test technique réalisé pour Studio Lab. Il a pour but de dém
 Première fois que je fais un déploiement GitHub Pages, c'est une solution d'hébergement gratuite temporaire qui permet d'avoir rapidement le résultat final avec les intéractions, animations et responsive. Voici le lien : https://morganebdlx.github.io/studiolab-test/
 
 # Fonctionnalités
-Un composant Hero avec une image centrée qui s'agrandit et un texte qui apparaît après un certain temps, logo et menu burger qui sont sticky.
+- Le composant Header est en transparence avec le Hero.
+- Le Hero contient une image centrée qui s'agrandit et un texte qui apparaît après un certain temps.
+- Le logo, le menu burger, et la navigation dans le Header sont sticky.
+- Une animation du menu se déclenche au clic pour déployer la navigation.
 Une section de texte avec plusieurs tailles et un bouton "en savoir plus" contenant une flèche via fontawesome.
 Un composant avec une intro, un bouton "en savoir plus" similaire à celui de la section précédente, puis 5 cartes avec des animations au hover.
 Un footer simple en signature.
-Il n'y a pas de composant Header car il y a seulement un menu burger pour tous les formats de devices. 
 
 # Stack technique
-Langage : JavaScript,
-Framework(s)/Librairie(s) : React,
-Outils : Vite, npm, Git, zsh, fontawesome, googlefont
+Langage : JavaScript | 
+Framework : React |
+Outils : Vite, npm, Git, zsh, fontAwesome, googleFont
 
 
 # Choix techniques et hypothèses
@@ -35,6 +37,8 @@ J’ai choisi React car je suis en train de me former seule sur ce framework. Ce
 │   │   ├── CardsSection.jsx
 │   │   ├── Footer.css
 │   │   ├── Footer.jsx
+│   │   ├── Header.css
+│   │   ├── Header.jsx
 │   │   ├── Hero.css
 │   │   ├── Hero.jsx
 │   │   ├── TextSection.css
