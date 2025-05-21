@@ -32,43 +32,6 @@ body, html, #root {
   height: 100%;
 }
 
-
-.logo {
-  width: 72px;
-  height: 57px;
-  top: 70px;
-  left: 110px;
-  position: fixed;
-  z-index: 10;
-  cursor: pointer;
-}
-
-.menu-burger {
-  top: 60px;
-  right: 110px;
-  position: fixed;
-  z-index: 10;
-}
-
-.burger {
-  color: #2E6965;
-}
-
-.menu-button {
-  width: 54px;
-  height: 54px;
-  cursor: pointer;
-  background-color: white;
-  border: none;
-  padding: 10px 10px;
-  border-radius: 50%;
-}
-
-.burger {
-  height: 25px;
-}
-
-
 h2 {
   font-size: 60px;
   font-weight: 400;
@@ -87,51 +50,4 @@ font-size: 35px;
 line-height: 100%;
 letter-spacing: 0%;
 vertical-align: bottom;
-}
-
-@media (min-width: 1025px) and (max-width: 1600px) {
-  .logo {
-    width: 72px;
-    height: 57px;
-    top: 50px;
-    left: 50px;
-  }
-
-  .menu-burger {
-    top: 50px;
-    right: 20px;
-    position: fixed;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .logo {
-    width: 72px;
-    height: 57px;
-    top: 50px;
-    left: 50px;
-  }
-
-  .menu-burger {
-    top: 50px;
-    right: 20px;
-    position: fixed;
-  }
-}
-
-
-@media (max-width: 767px) and (min-width: 320px){
-  .logo {
-    width: 58.11px;
-    height: 46px;
-    top: 17px;
-    left: 20px;
-    position: fixed;
-  }
-
-  .menu-burger {
-    top: 17px;
-    right: 20px;
-    position: fixed;
-  }
 }
